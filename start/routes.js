@@ -31,3 +31,5 @@ Route.get('/post/edit/:id', 'PostController.edit')
 Route.put('/posts/:id', 'PostController.update')
 
 Route.delete('/posts/:id', 'PostController.destory')
+
+Route.get('/tests','TestController.index')
